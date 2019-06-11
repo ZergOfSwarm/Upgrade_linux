@@ -30,7 +30,6 @@ echo 'APT update finished...'
 echo -e $TEXT_RESET
 echo
 
-
 echo -e "step 4: ${GREEN}apt upgrade, upgrating packages${NOCOLOR}"
 sudo apt-get upgrade
 echo -e $TEXT_YELLOW
